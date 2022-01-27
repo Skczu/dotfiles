@@ -1,0 +1,23 @@
+{
+  "editor.fontSize": 21,
+  "editor.fontFamily": "'Cascadia Code'",
+  "terminal.external.windowsExec": "C:\\Program Files\\Git\\git-bash.exe",
+  "terminal.integrated.defaultProfile.windows": "Git Bash",
+  "task.autoDetect": "off",
+  "task.quickOpen.skip": true,
+  "editor.tabSize": 2,
+  "editor.bracketPairColorization.enabled": true,
+  "editor.fontLigatures": true,
+  "editor.defaultFormatter": "esbenp.prettier-vscode",
+  "editor.formatOnSave": true,
+  "editor.linkedEditing": true,
+  "terminal.integrated.cursorStyle": "underline",
+  "files.watcherExclude": {
+    "**/.git/objects/**": true,
+    "**/.git/subtree-cache/**": true,
+    "**/node_modules/*/**": true,
+    "**/.hg/store/**": true
+  },
+  "window.menuBarVisibility": "toggle",
+  "workbench.colorTheme": "Dracula"
+}
