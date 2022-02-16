@@ -1,8 +1,7 @@
 {
   "editor.fontSize": 21,
-  "editor.fontFamily": "'Cascadia Code'",
-  "terminal.external.windowsExec": "C:\\Program Files\\Git\\git-bash.exe",
-  "terminal.integrated.defaultProfile.windows": "Git Bash",
+  "editor.fontFamily": "Fira Code",
+  "editor.fontWeight": "500",
   "task.autoDetect": "off",
   "task.quickOpen.skip": true,
   "editor.tabSize": 2,
@@ -18,6 +17,11 @@
     "**/node_modules/*/**": true,
     "**/.hg/store/**": true
   },
-  "workbench.colorTheme": "Moonlight II Italic",
-  "window.menuBarVisibility": "toggle"
+  "workbench.colorTheme": "Atom One Dark",
+  "files.associations": {
+    "*.js": "javascript"
+  },
+  "prettier.singleQuote": true,
+  "window.menuBarVisibility": "toggle",
+  "workbench.iconTheme": "eq-material-theme-icons-ocean"
 }
